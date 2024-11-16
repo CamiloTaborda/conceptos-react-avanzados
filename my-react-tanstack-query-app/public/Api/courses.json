@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "title": "JavaScript Fundamentals",
+      "description": "Learn the basics of JavaScript.",
+      "duration": "4 weeks"
+    },
+    {
+      "id": 2,
+      "title": "React for Beginners",
+      "description": "A guide to getting started with React.",
+      "duration": "6 weeks"
+    },
+    {
+      "id": 3,
+      "title": "Advanced TypeScript",
+      "description": "Deep dive into TypeScript features.",
+      "duration": "5 weeks"
+    },
+    {
+      "id": 4,
+      "title": "Node.js and Express",
+      "description": "Build web applications with Node.js.",
+      "duration": "7 weeks"
+    },
+    {
+      "id": 5,
+      "title": "CSS Grid and Flexbox",
+      "description": "Learn layout techniques with CSS.",
+      "duration": "3 weeks"
+    },
+    {
+      "id": 6,
+      "title": "Data Structures and Algorithms",
+      "description": "Fundamentals of data structures.",
+      "duration": "8 weeks"
+    }
+  ]
+  

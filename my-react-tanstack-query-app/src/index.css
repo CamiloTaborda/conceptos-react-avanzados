@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --yellow: #FBFFDC;
+  --green: #004028;
+  --light-green: #EAF5ED;
+  --white: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  background-color: var(--white);
+  box-sizing: border-box;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: var(--green);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Estilos adicionales para elementos dentro del body */
+body div {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+body h1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+body ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  margin-top: 24px;
+  padding: 0;
+  width: 100%;
+}
+
+body li {
+  background-color: var(--light-green);
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  padding: 24px 36px;
+}
+
+body button {
+  background-color: var(--yellow);
+  color: var(--green);
+  cursor: pointer;
+  border: 1px solid var(--green);
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 8px 16px;
+  margin-top: 8px;
+  transition: border 0.1s ease;
+}
+
+body button:hover {
+  border-left: 2px solid var(--green);
+  border-bottom: 2px solid var(--green);
+}
